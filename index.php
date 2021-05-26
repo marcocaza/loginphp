@@ -5,6 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="css/menu.css">
 	<meta charset="utf-8">
 </head>
+
 <body>
 <?php
 	require "conexion.php";  

@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>LOGIN</title>
 	<link rel="stylesheet" type="text/css" href="css/menu.css">
 	<meta charset="utf-8">
 </head>
 
+
 <body>
+<h1>lo mejor de lo mejor</h1>
 <?php
 	require "conexion.php";  
 	session_start();

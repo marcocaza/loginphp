@@ -1,0 +1,63 @@
+body{
+	background: url(https://i.pinimg.com/originals/1c/11/c6/1c11c604b7cef1bf8ff7c40323f0a54b.png) no-repeat center center fixed;
+	background-size: cover;
+}
+.modal-content{
+	background-color: rgb(242, 241, 226);
+	opacity: .95;
+	padding: 80px 20px;
+	box-shadow: 0px 0px 3px rgb(251, 194, 80);
+	border-radius: 10px;
+}
+.form-section{
+	margin: 0 auto;
+	margin-top: 15%;
+	padding: 0;
+}
+.usua-img{
+	margin-top: -50px;
+	margin-bottom: 35px;
+}
+.usua-img img{
+	width: 150px;
+	height: 150px;
+	/*box-shadow: 0px 0px 3px rgb(251, 194, 80);*/
+	border-radius: 50%;
+}
+.caja{
+	background-color: rgb(242, 241, 226);	
+	color: rgb(25, 144, 164);
+}
+.caja2{
+	border-bottom: rgb(25, 144, 164) 2px solid; 
+}
+
+button{
+	width: 60%;
+	margin: 5px 0 10px;
+}
+/*Nuevo*/
+.form-group input{
+    height: 42px;
+    font-size: 18px;
+    border:0;
+    padding-left: 54px;
+    border-radius: 5px;
+}
+.form-group::before{
+    font-family: "Font Awesome\ 5 Free";
+    position: absolute;
+    left: 28px;
+    font-size: 22px;
+    padding-top:4px;
+}
+.form-group#user-group::before{
+    content: "\f007";
+}
+.form-group#contrasena-group::before{
+    content: "\f023";
+}
+input{
+	   outline: none;
+	   user-select: none;
+}
